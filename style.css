@@ -1,7 +1,25 @@
-@font-face: {
-    font-family: 'VarelaRound-Regular',
-    src: url('assets/fonts/VerlaRound-Regular.ttf') format('truetype');
+@font-face {
+    font-family: 'varela_roundregular';
+    src: url('assets/fonts/varelaround-regular-webfont.woff2') format('woff2'),
+    url('assets/fonts/varelaround-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
+    font-family: "varela_roundregular";
+}
+
+.social-link {
+    height: 128px;
+    width: 128px;
+    display: inline-block;
+}
+
+.link-github {
+    background-image: url('assets/images/icon-github.png');
+}
+
+.link-linkedin {
+    background-image: url('assets/images/icon-linkedin.png');
 }

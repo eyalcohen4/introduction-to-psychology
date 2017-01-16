@@ -1,1 +1,3 @@
-var slideshow = remark.create();
+$(document).ready(function () {
+    var slideshow = remark.create();
+});
